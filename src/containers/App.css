@@ -10,3 +10,15 @@ h1 {
     font-weight: 200;
     color: #0ccac4;
 }
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    gap: 10px;              /* Add spacing between items */
+}
+
+.deleteButton {
+    cursor: pointer;
+    z-index: -1;
+}

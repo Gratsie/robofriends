@@ -7,6 +7,7 @@ const SearchBox = ({searchfield, onSearchChange}) => {
             className="pa3 ba b--green bg-lightest-blue"
             type='search' 
             placeholder='search robots' 
+            style={{ width: '500px', textAlign: 'center' }} // Adjust width as needed
             onChange={onSearchChange}
         />
         </div>
